@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multivariate Calculus/Notes.md",
-                "mode": "preview",
+                "file": "Algorithms/Notes.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Multivariate Calculus/Notes.md",
+                "file": "Algorithms/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Multivariate Calculus/Notes.md",
+                "file": "Algorithms/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Multivariate Calculus/Notes.md"
+                "file": "Algorithms/Notes.md"
               }
             }
           }
@@ -146,12 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b68432231880c23c",
+  "active": "e22c29596e86bd29",
   "lastOpenFiles": [
+    "Algorithms/Textbooks/CLRS.pdf",
+    "Algorithms/Textbooks",
+    "Multivariate Calculus/Notes.md",
+    "Algorithms/Notes.md",
     "Numerical/Notes.md",
     "Numerical/Problems.md",
     "Linear Algebra/Notes.md",
-    "Multivariate Calculus/Notes.md",
     "Linear Algebra/Untitled",
     "Linear Algebra/Textbooks",
     "Linear Algebra",
@@ -163,7 +166,6 @@
     "ODE/Notes.md",
     "ODE/Textbooks/BoyceDiPrima.pdf",
     "PDE/Textbooks/Strauss.pdf",
-    "PDE/Textbooks/Strauss.pdf.crdownload",
     "Calculus/Notes.md",
     "Calculus/Problems.md",
     "Algo/Notes.md",
