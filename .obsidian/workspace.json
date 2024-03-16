@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Notes.md",
+                "file": "Numerical Analysis/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Notes.md",
+                "file": "Numerical Analysis/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Notes.md",
+                "file": "Numerical Analysis/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Notes.md"
+                "file": "Numerical Analysis/Notes.md"
               }
             }
           }
@@ -148,10 +148,16 @@
   },
   "active": "e22c29596e86bd29",
   "lastOpenFiles": [
+    "Numerical Analysis/Textbooks/SuliMayers.pdf",
+    "Numerical Analysis/Textbooks/Miller.pdf",
+    "Numerical Analysis/Textbooks",
+    "Algorithms/Notes.md",
+    "Numerical Analysis/Notes.md",
+    "Numerical Analysis",
+    "New folder",
     "Algorithms/Textbooks/CLRS.pdf",
     "Algorithms/Textbooks",
     "Multivariate Calculus/Notes.md",
-    "Algorithms/Notes.md",
     "Numerical/Notes.md",
     "Numerical/Problems.md",
     "Linear Algebra/Notes.md",
@@ -160,12 +166,7 @@
     "Linear Algebra",
     "PDE/Notes.md",
     "ProbStat/Textbooks/Freund.pdf",
-    "Multivariate Calculus/Textbooks",
-    "Multivariate Calculus",
-    "ProbStat/Textbooks/Ross.pdf",
     "ODE/Notes.md",
-    "ODE/Textbooks/BoyceDiPrima.pdf",
-    "PDE/Textbooks/Strauss.pdf",
     "Calculus/Notes.md",
     "Calculus/Problems.md",
     "Algo/Notes.md",
