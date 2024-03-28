@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Analysis/Notes.md",
+                "file": "Waves, Optics, Thermodynamics/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Analysis/Notes.md",
+                "file": "Waves, Optics, Thermodynamics/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Analysis/Notes.md",
+                "file": "Waves, Optics, Thermodynamics/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Analysis/Notes.md"
+                "file": "Waves, Optics, Thermodynamics/Notes.md"
               }
             }
           }
@@ -146,13 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e22c29596e86bd29",
+  "active": "b68432231880c23c",
   "lastOpenFiles": [
+    "Numerical Analysis/Notes.md",
+    "Waves, Optics, Thermodynamics/Notes.md",
+    "Algorithms/Notes.md",
+    "ProbStat/Notes.md",
+    "Waves, Optics, Thermodynamics/Textbooks",
+    "Waves, Optics, Thermodynamics",
     "Numerical Analysis/Textbooks/SuliMayers.pdf",
     "Numerical Analysis/Textbooks/Miller.pdf",
     "Numerical Analysis/Textbooks",
-    "Algorithms/Notes.md",
-    "Numerical Analysis/Notes.md",
     "Numerical Analysis",
     "New folder",
     "Algorithms/Textbooks/CLRS.pdf",
@@ -162,16 +166,12 @@
     "Numerical/Problems.md",
     "Linear Algebra/Notes.md",
     "Linear Algebra/Untitled",
-    "Linear Algebra/Textbooks",
-    "Linear Algebra",
     "PDE/Notes.md",
-    "ProbStat/Textbooks/Freund.pdf",
     "ODE/Notes.md",
     "Calculus/Notes.md",
     "Calculus/Problems.md",
     "Algo/Notes.md",
     "Algo/Problems.md",
-    "ProbStat/Notes.md",
     "PDE/Problems.md",
     "ProbStat/Problems.md"
   ]

@@ -1,8 +1,6 @@
 This is based off the *Numerical Analysis* course by Mingtao Xia at NYU Tandon. 
 
 We refer primarily to the textbook [[SuliMayers.pdf|An Introduction to Numerical Analysis by Suli and Mayer]]. and briefly consult  [[Miller.pdf|Numerical Analysis for Engineers and Scientists by Miller]]
-# Syllabus
-
 # Numerical Error
 #todo
 >[!Textbook]- 

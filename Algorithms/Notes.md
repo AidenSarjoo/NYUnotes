@@ -5,16 +5,16 @@ This document also borrows heavily from Greg Aloupis' former *Design and Analysi
 We also consult [the Holy Bible](obsidian://open?vault=Algo&file=Textbooks%2FCLRS.pdf) 
 
 # Syllabus
-- [[Notes#Pre-requisites|Pre-Requisites]]
-- [[Notes#Big O Notation|Big O Notation]]
-- [[Notes#Recurrence|Recurrence]] 
-	- [[Notes#Recurrence#Master Theorem |Master Theorem]] 
-	- [[Notes#Recurrence#Inductive Proof|Inductive Proof]] 
-- [[Notes#Merge Sort|Merge Sort]]
-- [[Notes#Heaps and Heap Sort|Heaps]]
-- [[Notes#Selection|Selection]] 
-- [[Notes#Quick Sort|Quick Sort]] 
-- [[Notes#Linear-Time Sorting|Linear-Time Sorting]]
+- [[Algorithms/Notes#Pre-requisites|Pre-Requisites]]
+- [[Algorithms/Notes#Big O Notation|Big O Notation]]
+- [[Algorithms/Notes#Recurrence|Recurrence]] 
+	- [[Algorithms/Notes#Recurrence#Master Theorem|Master Theorem]] 
+	- [[Algorithms/Notes#Recurrence#Inductive Proof|Inductive Proof]] 
+- [[Algorithms/Notes#Merge Sort|Merge Sort]]
+- [[Algorithms/Notes#Heaps and Heap Sort|Heaps]]
+- [[Algorithms/Notes#Selection|Selection]] 
+- [[Algorithms/Notes#Quick Sort|Quick Sort]] 
+- [[Algorithms/Notes#Linear-Time Sorting|Linear-Time Sorting]]
 # Pre-requisites
 #todo 
 
