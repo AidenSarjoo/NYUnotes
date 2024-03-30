@@ -189,7 +189,7 @@ The doppler shift explains the relationship between a frequency at the source $f
 
 | Doppler Shift $f_{o} = f_{s} \dfrac{v\pm v_{o}}{v\pm v_{s}}$ | Stationary observer                  | Observer moving towards source               | Observer moving away from source             |
 |:------------------------------------------------------------ |:------------------------------------ |:-------------------------------------------- |:-------------------------------------------- |
-| Stationary source                                            | $f_{o} = f_{s}                       | $f_{o} = f_{s} \dfrac{v + v_{o}}{v}$         | $f_{o} = f_{s} \dfrac{v - v_{o}}{v}$         |
+| Stationary source                                            | $f_{o} = f_{s}$                       | $f_{o} = f_{s} \dfrac{v + v_{o}}{v}$         | $f_{o} = f_{s} \dfrac{v - v_{o}}{v}$         |
 | Source moving towards observer                               | $f_{o} = f_{s} \dfrac{v}{v - v_{s}}$ | $f_{o} = f_{s} \dfrac{v + v_{o}}{v - v_{s}}$ | $f_{o} = f_{s} \dfrac{v - v_{o}}{v - v_{s}}$ | 
 | Source moving away from observer                             | $f_{o} = f_{s} \dfrac{v}{v + v_{s}}$ | $f_{o} = f_{s} \dfrac{v + v_{o}}{v + v_{s}}$ | $f_{o} = f_{s} \dfrac{v - v_{o}}{v + v_{s}}$ |
 
