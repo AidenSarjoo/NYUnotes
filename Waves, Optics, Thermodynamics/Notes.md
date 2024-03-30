@@ -114,7 +114,7 @@ And its leftward counterpart:
 We may also see a *phase constant* version:
 - $D(x,t) = A\sin(kx-\omega t + \phi_0)$ 
 
-**The principle of superposition**: The collision two waves $D_1$ and $D_2$ results in a net displacement $D_{3}=D_{1}+D_{2}$ 
+**The principle of superposition**: The collision two waves $D_1$ and $D_2$ results in a net displacement $D=D_{1}+D_{2}$ 
 
 When a wave encounters a boundary, like a wall holding the end of a cord in-place, the wave will be reflected, resulting in an inversion of that wave with an equal amplitude. When a wave encounters a change in material, like a cord transitioning to another cord of a different thickness, part of it will be reflected and part of it will be transmitted to the new material. Critically, the frequency does NOT change across mediums, but the velocity $v$ and wavelength $\lambda$ will.
 
@@ -132,3 +132,80 @@ And the frequency $f$ as:
 - $f_{m}=\dfrac{mv}{2l} = m \cdot f_{1}$  
 Subsequently, we can find the frequency of the fundamental mode $f_{1}$ as:
 - $f_{1}=\Delta f = f_{m+1} - f_{m}$ 
+
+# Sound Waves
+>[!Textbook]- 
+><u>Chapter 16</u>: ![[Giancoli.pdf#page=484|Chapter 16]] 
+
+### variables:
+| **name**             | **symbol** | **unit**       |
+|:-------------------- |:---------- |:-------------- |
+| $\text{Intensity}$  | $I$  | $\dfrac{W}{m^{2}}$            |
+| $\text{sound level}$  | $\beta$        | $dB$ |
+### equations:
+- $I = \dfrac{P}{a}$
+- $\beta = 10 \log(\dfrac{I}{I_{0}})$
+- $f_{o} = f_{s} \dfrac{v\pm v_{o}}{v\pm v_{s}}$
+- $f_{beat} = |f_{1} - f_{2}|$
+### constants:
+| **name**             | **symbol** |**value**        | **unit** |
+|:-------------------- |:---------- |:-------------- |:-----------|
+| $\text{Intensity}$  | $I_0$  | $1.0 \times 10^{-12}$  | $\dfrac{W}{m^{2}}$ |
+
+## Introduction to Sound
+Sound waves are *longitudinal waves* (occasionally called *pressure waves*), as opposed to transverse waves, being waves that oscillate in the direction they travel.
+An important constant is the speed of sound $v$, which is $331 \frac{m}{s}$ at $1 \text{atm}, 0\degree C$ in air. Note, this changes based on temperature, roughly:
+- $v \approx (331 + 0.60 T) \dfrac{m}{s}$, where $T$ is in $\degree C$
+
+Generally, we assume $v = 343 \dfrac{m}{s}$ ($20 \degree C$)
+
+Often, we consider problems with instruments of various shapes, and thus its important to note 3 cases in order to calculate the fundamental frequencies $f_1$:
+1. String instruments: $f_{1} = \dfrac{1}{2L}\sqrt{\dfrac{F_{T}}{\mu}}$
+2. Open-open tube instruments (flute): $f_{1} = \dfrac{v}{2L}$
+3. Open-closed tube instruments (clarinet): $f_{1} = \dfrac{v}{4L}$
+
+Note, $v$ refers to speed of air in the tube 
+
+## Intensity 
+Intensity $I$ and power $P$ are important concepts in sound. The power $P$ of a wave is the rate ($J/s$) at which the wave transfers energy. We define intensity $P$ as the power-to-area $a$ ratio:
+- $I = \dfrac{P}{a}$
+
+Note, the human ear does not process intensity linearly, and it instead follows a logarithmic curve. For this reason, we consider sound level $\beta$, calculated as:
+- $\beta = 10 \log(\dfrac{I}{I_{0}})$
+
+## Doppler Shift
+The doppler shift explains the relationship between a frequency at the source $f_o$ and at the observer $f_s$ when either of those entities are moving. We often refer to the following chart:
+
+| Doppler Shift $f_{o} = f_{s} \dfrac{v\pm v_{o}}{v\pm v_{s}}$ | Stationary observer |Observer moving towards source| Observer moving away from source |
+|:-------------------- |:---------- |:-------------- |:-----------|
+| Stationary source  | $f_{o} = f_{s}   | $f_{o} = f_{s} \dfrac{v + v_{o}}{v}$  | $f_{o} = f_{s} \dfrac{v - v_{o}}{v}$ |
+| Source moving towards observer  | $f_{o} = f_{s} \dfrac{v}{v - v_{s}}$  | $f_{o} = f_{s} \dfrac{v + v_{o}}{v - v_{s}}$  | $f_{o} = f_{s} \dfrac{v - v_{o}}{v - v_{s}}$ |
+| Source moving away from observer  | $f_{o} = f_{s} \dfrac{v}{v + v_{s}}$  | $f_{o} = f_{s} \dfrac{v + v_{o}}{v + v_{s}}$  | $f_{o} = f_{s} \dfrac{v - v_{o}}{v + v_{s}}$ |
+
+Note that memorizing this chart is not necessary. Observe the base form:
+- $f_{o} = f_{s} \dfrac{v\pm v_{o}}{v\pm v_{s}}$
+Consider the following cases:
+- If the observer is stationary: the numerator is $v$
+- If the observer is moving towards the source: the numerator is $v + v_o$, the observed frequency will be higher 
+- If the observer is moving away from the source: the numerator is $v - v_o$, the observed frequency will be lower
+- If the source is stationary: the denominator is $v$
+- If the source is moving towards the observer: the denominator is $v - v_s$, the observed frequency will be higher
+- If the source is moving away from the observer, the denominator is $v + v_s$, the observed frequency will be lower
+
+## Interference and Beats
+Recall from the principle of superposition that two waves operating on the same space will result in a collision, known as interference. Sound waves, naturally, do the same. Consider the special cases of the waves $D_{1} = a\sin(kx_{1} - \omega t + \phi_{1}), D_{2} = a\sin(kx_{2}-\omega t + \phi_{2})$:
+1. $D_{1}(x) = D_2(x)$: the two waves are *in-phase*, meaning their resulting amplitude $A$ is $A = 2a$
+2. $D_{1}(x) = -D_2(x)$: the two waves are *out of phase*, meaning their resulting amplitude $A$ is $A = 0$
+In the first case, the amplitude is doubled, and in the second case, there is no sound at all.
+
+If two waves of equal amplitude $A$ and frequency $f$ are traveling together, we can write:
+- $D = D_{1} + D_{2} = a\sin(\phi_{1})+a\sin(\phi_{2})$
+Otherwise, we can write:
+- $D = \left[2a\cos\left(\dfrac{\Delta\phi}{2}\right)\right]\sin(kx_{avg}-\omega t + \phi_{avg})$
+
+Observe the following two cases of $\Delta\phi$:
+1. $\Delta \phi = m \cdot2\pi$ or $\cos\left(\dfrac{\Delta\phi}{2}\right) = \pm1$: the amplitude $A$ is maximized as $A = 2a$
+2. $\Delta\phi = (m + \frac{1}{2})\cdot2\pi$ or $\cos\left(\frac{\Delta\phi}{2}\right)=0$: the amplitude $A$ is minimized as $A = 0$
+
+We now introduce the concept of a *beat*, which is the result of the superposition of sounds from two sources with equal amplitude $a$, but different frequencies $f$.  We can calculate the frequency of the beat $f_{beat}$ as:
+- $f_{beat} = 2f_{mod} = 2 \dfrac{\omega_{mod}}{2\pi} = 2 \cdot \frac{1}{2}\left(\dfrac{\omega_{1}}{2\pi} - \dfrac{\omega_{2}}{2\pi}\right) = |f_{1} - f_{2}|$
