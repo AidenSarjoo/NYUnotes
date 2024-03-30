@@ -10,9 +10,20 @@ Consult the [[Giancoli.pdf|textbook]]  for in-depth explanations, and the phenom
 	- [[Waves, Optics, Thermodynamics/Notes#Vertical Oscillations|Vertical Oscillations]]
 	- [[Waves, Optics, Thermodynamics/Notes#Simple Pendulums|Simple Pendulums]]
 - [[Waves, Optics, Thermodynamics/Notes#Introduction to Waves|Introducion to Waves (15.1-15.9)]] 
-	- [[Waves, Optics, Thermodynamics/Notes#Introduction|Introduction]]
+	- [[Waves, Optics, Thermodynamics/Notes#Introduction to Waves#Introduction|Introduction]]
 	- [[Waves, Optics, Thermodynamics/Notes#Travelling Waves|Travelling Waves]]
 	- [[Waves, Optics, Thermodynamics/Notes#Standing Waves|Standing Waves]]
+- [[Waves, Optics, Thermodynamics/Notes#Sound Waves|Sound Waves (16.1-16.4,16.6-16.7)]]
+	- [[Waves, Optics, Thermodynamics/Notes#Sound Waves#Introduction|Introduction]]
+	- [[Waves, Optics, Thermodynamics/Notes#Intensity|Intensity]]
+	- [[Waves, Optics, Thermodynamics/Notes#Doppler Shift|Doppler Shift]]
+	- [[Waves, Optics, Thermodynamics/Notes#Interference and Beats|Interference and Beats]]
+- [[Waves, Optics, Thermodynamics/Notes#Electromagnetic Waves|Electromagnetic Waves (32.1-32.9)]]
+	- [[Waves, Optics, Thermodynamics/Notes#Electricity and Magnetism|Electricity and Magnetism]]
+	- [[Waves, Optics, Thermodynamics/Notes#Electromagnetic Waves#Introduction|Introduction]]
+	- [[Waves, Optics, Thermodynamics/Notes#Electromagnetic Waves#Energy|Energy]]
+	- [[Waves, Optics, Thermodynamics/Notes#Radiation Pressure|Radiation Pressure]]
+
 # Simple Harmonic Motion
 
 >[!Textbook]- 
@@ -152,7 +163,7 @@ Subsequently, we can find the frequency of the fundamental mode $f_{1}$ as:
 |:-------------------- |:---------- |:-------------- |:-----------|
 | $\text{Intensity}$  | $I_0$  | $1.0 \times 10^{-12}$  | $\dfrac{W}{m^{2}}$ |
 
-## Introduction to Sound
+## Introduction
 Sound waves are *longitudinal waves* (occasionally called *pressure waves*), as opposed to transverse waves, being waves that oscillate in the direction they travel.
 An important constant is the speed of sound $v$, which is $331 \frac{m}{s}$ at $1 \text{atm}, 0\degree C$ in air. Note, this changes based on temperature, roughly:
 - $v \approx (331 + 0.60 T) \dfrac{m}{s}$, where $T$ is in $\degree C$
@@ -170,17 +181,17 @@ Note, $v$ refers to speed of air in the tube
 Intensity $I$ and power $P$ are important concepts in sound. The power $P$ of a wave is the rate ($J/s$) at which the wave transfers energy. We define intensity $P$ as the power-to-area $a$ ratio:
 - $I = \dfrac{P}{a}$
 
-Note, the human ear does not process intensity linearly, and it instead follows a logarithmic curve. For this reason, we consider sound level $\beta$, calculated as:
-- $\beta = 10 \log(\dfrac{I}{I_{0}})$
+Note, the human ear does not process intensity linearly, and it instead follows a logarithmic curve. For this reason, we consider sound level $\beta$, defined as:
+- $\beta \equiv 10 \log(\dfrac{I}{I_{0}})$
 
 ## Doppler Shift
 The doppler shift explains the relationship between a frequency at the source $f_o$ and at the observer $f_s$ when either of those entities are moving. We often refer to the following chart:
 
-| Doppler Shift $f_{o} = f_{s} \dfrac{v\pm v_{o}}{v\pm v_{s}}$ | Stationary observer |Observer moving towards source| Observer moving away from source |
-|:-------------------- |:---------- |:-------------- |:-----------|
-| Stationary source  | $f_{o} = f_{s}   | $f_{o} = f_{s} \dfrac{v + v_{o}}{v}$  | $f_{o} = f_{s} \dfrac{v - v_{o}}{v}$ |
-| Source moving towards observer  | $f_{o} = f_{s} \dfrac{v}{v - v_{s}}$  | $f_{o} = f_{s} \dfrac{v + v_{o}}{v - v_{s}}$  | $f_{o} = f_{s} \dfrac{v - v_{o}}{v - v_{s}}$ |
-| Source moving away from observer  | $f_{o} = f_{s} \dfrac{v}{v + v_{s}}$  | $f_{o} = f_{s} \dfrac{v + v_{o}}{v + v_{s}}$  | $f_{o} = f_{s} \dfrac{v - v_{o}}{v + v_{s}}$ |
+| Doppler Shift $f_{o} = f_{s} \dfrac{v\pm v_{o}}{v\pm v_{s}}$ | Stationary observer                  | Observer moving towards source               | Observer moving away from source             |
+|:------------------------------------------------------------ |:------------------------------------ |:-------------------------------------------- |:-------------------------------------------- |
+| Stationary source                                            | $f_{o} = f_{s}                       | $f_{o} = f_{s} \dfrac{v + v_{o}}{v}$         | $f_{o} = f_{s} \dfrac{v - v_{o}}{v}$         |
+| Source moving towards observer                               | $f_{o} = f_{s} \dfrac{v}{v - v_{s}}$ | $f_{o} = f_{s} \dfrac{v + v_{o}}{v - v_{s}}$ | $f_{o} = f_{s} \dfrac{v - v_{o}}{v - v_{s}}$ | 
+| Source moving away from observer                             | $f_{o} = f_{s} \dfrac{v}{v + v_{s}}$ | $f_{o} = f_{s} \dfrac{v + v_{o}}{v + v_{s}}$ | $f_{o} = f_{s} \dfrac{v - v_{o}}{v + v_{s}}$ |
 
 Note that memorizing this chart is not necessary. Observe the base form:
 - $f_{o} = f_{s} \dfrac{v\pm v_{o}}{v\pm v_{s}}$
@@ -209,3 +220,151 @@ Observe the following two cases of $\Delta\phi$:
 
 We now introduce the concept of a *beat*, which is the result of the superposition of sounds from two sources with equal amplitude $a$, but different frequencies $f$.  We can calculate the frequency of the beat $f_{beat}$ as:
 - $f_{beat} = 2f_{mod} = 2 \dfrac{\omega_{mod}}{2\pi} = 2 \cdot \frac{1}{2}\left(\dfrac{\omega_{1}}{2\pi} - \dfrac{\omega_{2}}{2\pi}\right) = |f_{1} - f_{2}|$
+
+# Electromagnetic Waves
+>[!Textbook]- 
+><u>Chapter 31</u>: ![[Giancoli.pdf#page=921|Chapter 31]] 
+
+### variables:
+| **name**                 | **symbol** | **unit**                                |
+|:------------------------ |:---------- |:--------------------------------------- |
+| $\text{Electric Field}$  | $E$        | $\dfrac{N}{C} \text{ or } \dfrac{V}{m}$ |
+| $\text{Magnetic Field}$  | $B$        | $T$                                     |
+| $\text{Electric Flux}$   | $\Phi_{e}$ | $V \cdot m$                             |
+| $\text{Magnetic Flux}$   | $\Phi_{m}$ | $T \cdot m^{2}$                         |
+| $\text{Current}$         | $I$        | $A$                                     |
+| $\text{Poynting Vector}$ | $\vec{S}$  | $\dfrac{W}{m^{2}}$                      |
+| $\text{Energy Density}$  | $u$        | $\dfrac{J}{m^{3}}$                      |
+### equations:
+- $\Phi_{e}=  \oint \vec{E} \cdot d\vec{A} = \dfrac{Q_{in}}{\epsilon_{0}}$
+- $\Phi_{m} = \oint \vec{B} \cdot d \vec{A} = 0$
+- $\varepsilon= \oint \vec{E} \cdot d \vec{s} = - \dfrac{d\Phi_{m}}{dt}$
+- $\oint \vec{B} \cdot d \vec{s} = \mu_{0}I_{through}+\mu_{0}\epsilon_{0}\dfrac{d\Phi_{e}}{dt}$
+- $\vec{F} = q(\vec{E}+\vec{v}\times \vec{B})$
+- $\vec{S} \equiv \dfrac{1}{\mu_{0}}\vec{E}\times \vec{B}$
+- $I = \dfrac{c \epsilon_{0}}{2}E_{0}^{2}$
+- $I = \dfrac{P_{source}}{4\pi r^{2}}$
+- $u_{E}=\frac{1}{2}\epsilon_{0}E^{2}$
+- $u_{B}=\frac{1}{2} \dfrac{B^{2}}{\mu_{0}}$
+- $u = \epsilon_{0}E^{2}$
+- $u_{avg}=\frac{1}{2}\epsilon_{0}E^{2}$
+- $I = c \cdot u_{avg}$
+- $p_{rad}=\dfrac{I}{c}=\dfrac{F}{A}$
+### constants:
+| **name**                              | **symbol**   | **value**             | **unit**                |
+|:------------------------------------- |:------------ |:--------------------- |:----------------------- |
+| $\text{Permittivity of Free Space}$   | $\epsilon_0$ | $8.85 \times10^{-12}$ | $\dfrac{C^{2}}{Nm^{2}}$ |
+| $\text{Vacuum magnetic permeability}$ | $\mu_{0}$    | $4\pi \times10^{-7}$  | $\dfrac{Tm}{A}$         |
+| $\text{Speed of light}$               | $c$          | $3 \times 10^{8}$     | $\dfrac{m}{s}$                        |
+
+## Electricity and Magnetism
+Large portions of this section are review of electricity and magnetism content, thus, we gloss over some explanations. 
+Recall Gauss' Law for the electric field, stating for a closed surface enclosing charge $Q_{in}$, the net electric flux $\Phi_{e}$ is given by:
+- $\Phi_{e}=  \oint \vec{E} \cdot d\vec{A} = \dfrac{Q_{in}}{\epsilon_{0}}$
+
+Recall Gauss' Law for the magnetic field, stating that the net magnetic flux $\Phi_{m}$ through a closed surface is $\Phi_{m}=0$:
+- $\Phi_{m} = \oint \vec{B} \cdot d \vec{A} = 0$
+
+Recall Faraday's Law, stating that a changing magnetic flux $\Phi_{m}$ through a loop creates an induced electromagnetic field $\varepsilon$:
+- $\varepsilon= \oint \vec{E} \cdot d \vec{s} = - \dfrac{d\Phi_{m}}{dt}$
+
+Recall Ampere's Law, relating the current through a surface $I_{through}$ to magnetic field $B$:
+- $\oint \vec{B} \cdot d \vec{s} = \mu_{0}I_{through}$
+
+Though, this equation is imprecise, and we introduce a correction in the form of Ampere-Maxwell's Law, which adds a displacement current $I_{disp}=\epsilon_{0} \dfrac{d\Phi_{e}}{dt}$:
+- $\oint \vec{B} \cdot d \vec{s} = \mu_{0}(I_{through}+I_{disp})=\mu_{0}I_{through}+\mu_{0}\epsilon_{0}\dfrac{d\Phi_{e}}{dt}$
+This equation elaborates that a magnetic field $B$ can be created either by an electric current $I$ or a changing electric field.
+
+We now introduce the Lorentz Force Law, relating how matter operates in these fields:
+- $\vec{F} = q(\vec{E}+\vec{v}\times \vec{B})$
+
+Giancoli summarizes the above as:
+- **Gauss' Law for electricity**: Charged particles create an electric field
+- **Faraday's Law**: An electric field can also be created by a changing magnetic field
+- **Gauss' Law for magnetism**: All magnetic poles are dipoles (they are paired)
+- **Ampere-Maxwell's Law, first half**: Currents create a magnetic field
+- **Ampere-Maxwell's Law, second half**: A magnetic field can also be created by a changing electric field
+- **Lorentz Force Law, first half**: An electric force is exerted on a charged particle in an electric field
+- **Lorentz Force Law, second half**: A magnetic force is exerted on a charge moving in a magnetic field
+
+
+## Introduction 
+By understanding that a magnetic field is created by a changing electric field, we can derive that if a changing magnetic field produces an electric field, that electric field is also changing. The change in that electric field then creates a changing magnetic field, and this oscillation creates a wave of fields that propagate through space, and we can this an electromagnetic wave.
+
+The waves move in the same direction with the same speed $c$, but note that the electric waves and the magnetic waves will propagate perpendicularly. Facing the direction of the speed of the wave, the magnetic field wave will propagate $90\degree$ clockwise of the electric wave.
+
+Note that these waves are also $in-phase$, meaning that they maximize and minimize at the same times.
+
+Through effort, we derive the speed of electromagnetic waves $c$ as:
+- $c = \dfrac{1}{\sqrt{\epsilon_0\mu_{0}}}$
+We can relate the field strengths at any point in the wave of the two fields as:
+- $E = cB$
+
+We also define the energy flow of an electromagnetic wave, or the instantaneous ate of energy transfer per unit area of the wave, with the Poynting vector $\vec{S}$, defined as:
+- $\vec{S} \equiv \dfrac{1}{\mu_{0}}\vec{E}\times \vec{B}$
+We calculate the max of the Poynting vector $S_{max}$ as:
+- $S_{max}=\frac{E_{0}^{2}}{c \mu_{0}}$
+Critically, the average of the Poynting vector $S_{avg}=\frac{1}{2}S_{max}$ is the intensity $I$, deriving the equation:
+- $I = \dfrac{c \epsilon_{0}}{2}E_{0}^{2}$
+We can also use the original equation for intensity $I = P/A$ to calculate the intensity of an electromagnetic waves at a distance $r$ away from an equally radiating power source $P$ as:
+- $I = \dfrac{P_{source}}{4\pi r^{2}}$
+
+## Energy 
+We briefly consider the energy and energy density $u$ of electromagnetic waves:
+The energy density in the electric field $u_{E}$ is:
+- $u_{E}=\frac{1}{2}\epsilon_{0}E^{2}$
+
+The energy density in the magnetic field $u_{B}$ is:
+- $u_{B}=\frac{1}{2} \dfrac{B^{2}}{\mu_{0}}$
+
+Applying conservation of energy $u = u_{E} + u_{B}$ and the relation between electric field and magnetic field $E = cB$, we can derive:
+- $u = \epsilon_{0}E^{2}$
+- $u = \dfrac{B^{2}}{\mu_{0}}$
+- $u = \sqrt{\dfrac{\epsilon_0}{\mu_{0}}}EB$
+- $u_{avg} = \frac{1}{2}\epsilon_{0}E^{2}$
+
+Finally, we can relate energy density $u$ to intensity $I$, as:
+- $I = c \cdot u_{avg}$
+
+## Radiation Pressure
+Electromagnetic waves transmit their momentum into objects, which we refer to as radiation pressure $p_{rad}$, calculated as:
+- $p_{rad}=\dfrac{F}{A}=\dfrac{P/A}{c}=\dfrac{I}{c}$
+
+Mainly, we use this to relate intensity $I$ to area $A$ and force $F$:
+- $\dfrac{I}{c}=\dfrac{F}{A}$
+
+# Reflection, Refraction, and Polarization
+>[!Textbook]- 
+><u>Chapter 32</u>: ![[Giancoli.pdf#page=949|Chapter 32]] 
+
+### variables:
+| **name**                 | **symbol** | **unit**                                |
+|:------------------------ |:---------- |:--------------------------------------- |
+| $\text{Electric Field}$  | $E$        | $\dfrac{N}{C} \text{ or } \dfrac{V}{m}$ |
+| $\text{Magnetic Field}$  | $B$        | $T$                                     |
+| $\text{Electric Flux}$   | $\Phi_{e}$ | $V \cdot m$                             |
+| $\text{Magnetic Flux}$   | $\Phi_{m}$ | $T \cdot m^{2}$                         |
+| $\text{Current}$         | $I$        | $A$                                     |
+| $\text{Poynting Vector}$ | $\vec{S}$  | $\dfrac{W}{m^{2}}$                      |
+| $\text{Energy Density}$  | $u$        | $\dfrac{J}{m^{3}}$                      |
+### equations:
+- $\Phi_{e}=  \oint \vec{E} \cdot d\vec{A} = \dfrac{Q_{in}}{\epsilon_{0}}$
+- $\Phi_{m} = \oint \vec{B} \cdot d \vec{A} = 0$
+- $\varepsilon= \oint \vec{E} \cdot d \vec{s} = - \dfrac{d\Phi_{m}}{dt}$
+- $\oint \vec{B} \cdot d \vec{s} = \mu_{0}I_{through}+\mu_{0}\epsilon_{0}\dfrac{d\Phi_{e}}{dt}$
+- $\vec{F} = q(\vec{E}+\vec{v}\times \vec{B})$
+- $\vec{S} \equiv \dfrac{1}{\mu_{0}}\vec{E}\times \vec{B}$
+- $I = \dfrac{c \epsilon_{0}}{2}E_{0}^{2}$
+- $I = \dfrac{P_{source}}{4\pi r^{2}}$
+- $u_{E}=\frac{1}{2}\epsilon_{0}E^{2}$
+- $u_{B}=\frac{1}{2} \dfrac{B^{2}}{\mu_{0}}$
+- $u = \epsilon_{0}E^{2}$
+- $u_{avg}=\frac{1}{2}\epsilon_{0}E^{2}$
+- $I = c \cdot u_{avg}$
+- $p_{rad}=\dfrac{I}{c}=\dfrac{F}{A}$
+### constants:
+| **name**                              | **symbol**   | **value**             | **unit**                |
+|:------------------------------------- |:------------ |:--------------------- |:----------------------- |
+| $\text{Permittivity of Free Space}$   | $\epsilon_0$ | $8.85 \times10^{-12}$ | $\dfrac{C^{2}}{Nm^{2}}$ |
+| $\text{Vacuum magnetic permeability}$ | $\mu_{0}$    | $4\pi \times10^{-7}$  | $\dfrac{Tm}{A}$         |
+| $\text{Speed of light}$               | $c$          | $3 \times 10^{8}$     | $\dfrac{m}{s}$                        |
