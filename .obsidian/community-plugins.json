@@ -1,3 +1,6 @@
 [
-  "quick-latex"
+  "quick-latex",
+  "table-editor-obsidian",
+  "obsidian-table-generator",
+  "obsidian-plugin-toc"
 ]

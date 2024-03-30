@@ -20,7 +20,7 @@ $x_{k+1}=g(x_k)$
 >[!Textbook]- 
 ><u>Textbook</u>: ![[Textbooks/SuliMayers.pdf#page=32|Chapter 1.4]]  
 
-<font size=5>$x_{k+1} = x_{k}- \frac{f(x_k)}{f'(x_k)}$</font>
+$x_{k+1} = x_{k}- \dfrac{f(x_k)}{f'(x_k)}$
 
 Converges quadratically for sufficiently large $k$
 
@@ -30,11 +30,11 @@ Converges quadratically for sufficiently large $k$
 
 Note the derivative approximation:
 
-<font size=4.5>$f'(x_{k})\approx \frac{f(x_k)-f(x_{k-1})}{x_{k} - x_{k-1}}$</font>
+$f'(x_{k})\approx \dfrac{f(x_k)-f(x_{k-1})}{x_{k} - x_{k-1}}$
 
 Apply the above to Newton's Method and define the Secant Method as:
 
-<font size=5>$x_{k+1} = x_{k}- f(x_{k}) (\frac{x_{k}- x_{k-1}}{f(x_{k}) - f(x_{k-1})})$</font>
+$x_{k+1} = x_{k}- f(x_{k}) (\dfrac{x_{k}- x_{k-1}}{f(x_{k}) - f(x_{k-1})})$
 
 ## Bisection Method
 >[!Textbook]- 
@@ -43,7 +43,7 @@ Apply the above to Newton's Method and define the Secant Method as:
 
 Choose $a_0,b_0$ where $f(a_0)f(b_0) \lt 0$
 
-<font size = 4.5>$c_k = \frac{a_k+b_k}{2}$</font>
+$c_k = \dfrac{a_k+b_k}{2}$
 1. if $f(b_k)f(c_{k}) > 0, (a_{k+1}, b_{k+1}) = (a_k, c_k)$
 2. if $f(b_k)f(c_{k}) < 0, (a_{k+1}, b_{k+1}) = (c_k, b_k)$
 
@@ -58,15 +58,15 @@ We can check the existence of this solution by *the leading principal submatrice
 
 Calculate the values $l_{ij}$ of matrix $L$ and $u_{ij}$ of matrix $U$ with the following formulas:
 
-<font size = 4.5>$l_{ij} = \frac{1}{u_{jj}}(a_{ij})-\sum\limits_{k=1}^{j-1}l_{ik}u_{kj}$</font>
-<font size = 4.5>$u_{ij} = a_{ij} - \sum\limits_{k=1}^{i-1}l_{ik}u_{kj}$</font>
+$l_{ij} = \dfrac{1}{u_{jj}}(a_{ij})-\sum\limits_{k=1}^{j-1}l_{ik}u_{kj}$
+$u_{ij} = a_{ij} - \sum\limits_{k=1}^{i-1}l_{ik}u_{kj}$
 
 The total computational cost is then
 $\sum\limits_{i=1}^{n} \sum\limits_{j=1}^{i}(2j-1)+\sum\limits_{i=1}^{n}\sum\limits_{j=1}^n(2i-2)$
 
 We find the solution of the above method with:
 $y_{i} = \sum\limits_{j=1}^{n}u_{ij}x_{j}$
-$x_{i}=\frac{1}{u_{jj}}(y_{i}-\sum\limits_{j=i+1}^{n}u_{jj}x_{k})$
+$x_{i}=\dfrac{1}{u_{jj}}(y_{i}-\sum\limits_{j=i+1}^{n}u_{jj}x_{k})$
 
 in total this is $O(n^2)$ 
 # Matrix and Vector Norms
