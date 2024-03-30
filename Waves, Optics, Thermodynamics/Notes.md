@@ -23,9 +23,10 @@ Consult the [[Giancoli.pdf|textbook]]  for in-depth explanations, and the phenom
 	- [[Waves, Optics, Thermodynamics/Notes#Electromagnetic Waves#Introduction|Introduction]]
 	- [[Waves, Optics, Thermodynamics/Notes#Electromagnetic Waves#Energy|Energy]]
 	- [[Waves, Optics, Thermodynamics/Notes#Radiation Pressure|Radiation Pressure]]
+- [[Waves, Optics, Thermodynamics/Notes#Polarization|Polarization (34.7)]]
+	- [[Waves, Optics, Thermodynamics/Notes#Polarization#Introduction|Introduction]]
 
 # Simple Harmonic Motion
-
 >[!Textbook]- 
 ><u>Chapter 14</u>: ![[Giancoli.pdf#page=422|Chapter 14]] 
 ### variables:
@@ -161,7 +162,7 @@ Subsequently, we can find the frequency of the fundamental mode $f_{1}$ as:
 ### constants:
 | **name**             | **symbol** |**value**        | **unit** |
 |:-------------------- |:---------- |:-------------- |:-----------|
-| $\text{Intensity}$  | $I_0$  | $1.0 \times 10^{-12}$  | $\dfrac{W}{m^{2}}$ |
+| $\text{Threshold of hearing}$  | $I_0$  | $1.0 \times 10^{-12}$  | $\dfrac{W}{m^{2}}$ |
 
 ## Introduction
 Sound waves are *longitudinal waves* (occasionally called *pressure waves*), as opposed to transverse waves, being waves that oscillate in the direction they travel.
@@ -255,7 +256,7 @@ We now introduce the concept of a *beat*, which is the result of the superpositi
 |:------------------------------------- |:------------ |:--------------------- |:----------------------- |
 | $\text{Permittivity of Free Space}$   | $\epsilon_0$ | $8.85 \times10^{-12}$ | $\dfrac{C^{2}}{Nm^{2}}$ |
 | $\text{Vacuum magnetic permeability}$ | $\mu_{0}$    | $4\pi \times10^{-7}$  | $\dfrac{Tm}{A}$         |
-| $\text{Speed of light}$               | $c$          | $3 \times 10^{8}$     | $\dfrac{m}{s}$                        |
+| $\text{Speed of light}$               | $c$          | $3 \times 10^{8}$     | $\dfrac{m}{s}$          |
 
 ## Electricity and Magnetism
 Large portions of this section are review of electricity and magnetism content, thus, we gloss over some explanations. 
@@ -333,38 +334,60 @@ Electromagnetic waves transmit their momentum into objects, which we refer to as
 Mainly, we use this to relate intensity $I$ to area $A$ and force $F$:
 - $\dfrac{I}{c}=\dfrac{F}{A}$
 
-# Reflection, Refraction, and Polarization
+#  Polarization
 >[!Textbook]- 
-><u>Chapter 32</u>: ![[Giancoli.pdf#page=949|Chapter 32]] 
+><u>Chapter 34.7</u>: ![[Giancoli.pdf#page=1033|Chapter 34.7]] 
+### equations:
+- $E = E_0\cos(\theta)$
+- $I = I_{0}\cos^{2}(\theta)$
+## Introduction
+Polarization is a much smaller topic in optics. We define the plane of polarization as the plane defined by the Poynting vector $\vec{S}$ and the electric field vector $\vec{E}$, and we pay special attention to the direction of the plane: whether it is *vertically polarized* or *horizontally polarized*. For the most part, natural light sources are *unpolarized*, meaning their fields oscillate randomly in all possible orientations, but we do find value in then polarizing these fields through a polarizing filter.
+
+On this polarizing filter, we have a transmission axis with an angle $\theta$ to the incident polarization direction. Passing through this filter, the electric field $E_0$ is then reduced, following the equation:
+- $E = E_0\cos(\theta)$
+
+Importantly, we then see a reduction in the intensity $I$, calculated as:
+- $I = I_{0}\cos^{2}(\theta)$
+
+When unpolarized light passes through a filter, we expect the polarization to be $E[I] = \frac{1}{2}I_{0}$
+
+Something that occurs commonly is chaining polarizers, such that light passes through multiple polarizing filters, we can calculate the result of these as:
+- $I_{n}=I_{0}\prod\limits_{i=0}^{n}\cos^{2}(\theta_{i})$ 
+
+where $\theta_i$ is the angle of the $i^{th}$ polarizing filter relative to the light
+
+# Reflection and Refraction
+>[!Textbook]- 
+><u>Chapter 31</u>: ![[Giancoli.pdf#page=921|Chapter 31]] 
 
 ### variables:
-| **name**                 | **symbol** | **unit**                                |
-|:------------------------ |:---------- |:--------------------------------------- |
-| $\text{Electric Field}$  | $E$        | $\dfrac{N}{C} \text{ or } \dfrac{V}{m}$ |
-| $\text{Magnetic Field}$  | $B$        | $T$                                     |
-| $\text{Electric Flux}$   | $\Phi_{e}$ | $V \cdot m$                             |
-| $\text{Magnetic Flux}$   | $\Phi_{m}$ | $T \cdot m^{2}$                         |
-| $\text{Current}$         | $I$        | $A$                                     |
-| $\text{Poynting Vector}$ | $\vec{S}$  | $\dfrac{W}{m^{2}}$                      |
-| $\text{Energy Density}$  | $u$        | $\dfrac{J}{m^{3}}$                      |
+| **name**                     | **symbol** | **unit**     |
+|:---------------------------- |:---------- |:------------ |
+| $\text{Angle of Incidence}$  | $\theta_i$ | $\text{rad}$ |
+| $\text{Angle of Reflection}$ | $\theta_r$ | $\text{rad}$ |
+| $\text{Index of Refraction}$ | $n$        |              |
+|                              |            |              |
 ### equations:
-- $\Phi_{e}=  \oint \vec{E} \cdot d\vec{A} = \dfrac{Q_{in}}{\epsilon_{0}}$
-- $\Phi_{m} = \oint \vec{B} \cdot d \vec{A} = 0$
-- $\varepsilon= \oint \vec{E} \cdot d \vec{s} = - \dfrac{d\Phi_{m}}{dt}$
-- $\oint \vec{B} \cdot d \vec{s} = \mu_{0}I_{through}+\mu_{0}\epsilon_{0}\dfrac{d\Phi_{e}}{dt}$
-- $\vec{F} = q(\vec{E}+\vec{v}\times \vec{B})$
-- $\vec{S} \equiv \dfrac{1}{\mu_{0}}\vec{E}\times \vec{B}$
-- $I = \dfrac{c \epsilon_{0}}{2}E_{0}^{2}$
-- $I = \dfrac{P_{source}}{4\pi r^{2}}$
-- $u_{E}=\frac{1}{2}\epsilon_{0}E^{2}$
-- $u_{B}=\frac{1}{2} \dfrac{B^{2}}{\mu_{0}}$
-- $u = \epsilon_{0}E^{2}$
-- $u_{avg}=\frac{1}{2}\epsilon_{0}E^{2}$
-- $I = c \cdot u_{avg}$
-- $p_{rad}=\dfrac{I}{c}=\dfrac{F}{A}$
+- $n = \dfrac{c}{v}$
+- $n_{1}\sin(\theta_1)=n_{2}\sin(\theta_2)$
 ### constants:
-| **name**                              | **symbol**   | **value**             | **unit**                |
-|:------------------------------------- |:------------ |:--------------------- |:----------------------- |
-| $\text{Permittivity of Free Space}$   | $\epsilon_0$ | $8.85 \times10^{-12}$ | $\dfrac{C^{2}}{Nm^{2}}$ |
-| $\text{Vacuum magnetic permeability}$ | $\mu_{0}$    | $4\pi \times10^{-7}$  | $\dfrac{Tm}{A}$         |
-| $\text{Speed of light}$               | $c$          | $3 \times 10^{8}$     | $\dfrac{m}{s}$                        |
+| **name** | **symbol** | **value** | **unit** |
+|:-------- |:---------- |:--------- |:-------- |
+|          |            |           |          |
+
+## Introduction
+This chapter primarily deals with the  light rays, straight-line paths of light, as they bounce and scatter across surfaces. 
+
+## Specular Reflection
+When light strikes a perfectly smooth, flat surface and is bounced off, we call this a specular reflection. When a beam of light bounces off this surface, we define the angle between the normal of the surface and the light ray to be the angle of incidence $\theta_i$. Importantly, the angle between the reflected light ray and the normal of the surface is called the angle of reflection $\theta_r$, and it is equal to the angle of incidence $\theta_{i}=\theta_{r}$
+
+In comparison to specular reflection, we have diffuse reflection, in which light strikes a rough surface and is scattered. We will not be addressing diffuse reflection critically.
+
+Specular reflections create what we call a $virtual image$, i.e. the object being reflected in the mirror. For a specular reflection, the distance from the object to the mirror $d_o$ is equal to the distance from the mirror to the virtual object $d_i$.
+
+## Refraction
+Refraction refers to the bending of light rays as they traverse between mediums, i.e. from air to water or glass to air. All mediums have what's known as the *index of refraction* $n$, which is understood as the relation between the speed of light $c$ and the speed of light through that medium $v$, calculated as:
+- $n = \dfrac{c}{v}$
+
+Importantly, when light traverses through a medium it bends. Consider the angle the incident ray in medium 1 with index of refraction $n_1$ makes with the normal of the surface of medium 2  $\theta_1$ , and the angle the bent ray, or *refracted ray*, makes with the normal of the surface of the medium $\theta_2$. We can relate these two with the following:
+- $n_{1}\sin(\theta_1)=n_{2}\sin(\theta_2)$
