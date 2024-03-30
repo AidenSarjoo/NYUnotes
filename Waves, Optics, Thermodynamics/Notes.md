@@ -41,7 +41,7 @@ Consult the [[Giancoli.pdf|textbook]]  for in-depth explanations, and the phenom
 - $\omega = 2\pi f$
 - $x(t) = A\cos(\omega t + \phi_0)$
 - $v_{max}=\omega A$
-- $v_{x}(t) = -sin(\omega t + \phi_0)$
+- $v_{x}(t) = -\omega \sin(\omega t + \phi_0)$
 - $E = \dfrac{1}{2}mv^{2} + \dfrac{1}{2}kx^2$
 - $\omega = \sqrt{\dfrac{k}{m}}$
 - $\frac{1}{2}mv^{2} + \frac{1}{2}kx^{2}=\frac{1}{2}kA^{2}$
