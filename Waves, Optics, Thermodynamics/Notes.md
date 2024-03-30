@@ -34,7 +34,7 @@ Consult the [[Giancoli.pdf|textbook]]  for in-depth explanations, and the phenom
 | $\text{frequency}$         | $f$        | $\text{HZ} \text{ or } s^{-1}$ |
 | $\text{period}$            | $T$        | $s$                            |
 | $\text{angular frequency}$ | $\omega$   | $\text{HZ}$                    |
-| $\text{phase constant}$    | $\phi_0$   | $\frac{1}{m}$                              |
+| $\text{phase constant}$    | $\phi_0$   |                           |
 ### equations:
 - $f = \dfrac{1}{T}$  
 - $\omega = 2\pi f$
