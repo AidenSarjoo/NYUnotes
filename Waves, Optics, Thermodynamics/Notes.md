@@ -358,7 +358,7 @@ where $\theta_i$ is the angle of the $i^{th}$ polarizing filter relative to the 
 
 # Reflection and Refraction
 >[!Textbook]- 
-><u>Chapter 31</u>: ![[Giancoli.pdf#page=921|Chapter 31]] 
+><u>Chapter 32</u>: ![[Giancoli.pdf#page=949|Chapter 32]] 
 
 ### variables:
 | **name**                     | **symbol** | **unit**     |
@@ -366,14 +366,18 @@ where $\theta_i$ is the angle of the $i^{th}$ polarizing filter relative to the 
 | $\text{Angle of Incidence}$  | $\theta_i$ | $\text{rad}$ |
 | $\text{Angle of Reflection}$ | $\theta_r$ | $\text{rad}$ |
 | $\text{Index of Refraction}$ | $n$        |              |
-|                              |            |              |
+| $\text{Critical Angle of Incidence}$ | $\theta_c$   | $\text{rad}$             |
+| $\text{focal length}$ | $f$ | $m$ |
+| $\text{radius of curvature}$ | $r$ | $m$ |
+| $\text{magnification}$ | $m$ | |
 ### equations:
 - $n = \dfrac{c}{v}$
 - $n_{1}\sin(\theta_1)=n_{2}\sin(\theta_2)$
-### constants:
-| **name** | **symbol** | **value** | **unit** |
-|:-------- |:---------- |:--------- |:-------- |
-|          |            |           |          |
+- $\theta_{c} = \arcsin\left(\dfrac{n_{2}}{n_{1}}\right)$ 
+- $\lambda' = \dfrac{\lambda}{n}$ 
+- $f = \dfrac{r}{2}$
+-  $\dfrac{1}{d_{o}} + \dfrac{1}{d_{i}} = \dfrac{1}{f}$
+-  $m = \dfrac{h_i}{h_{o}} = \dfrac{d_{i}}{d_{o}}$
 
 ## Introduction
 This chapter primarily deals with the  light rays, straight-line paths of light, as they bounce and scatter across surfaces. 
@@ -389,5 +393,36 @@ Specular reflections create what we call a $virtual image$, i.e. the object bein
 Refraction refers to the bending of light rays as they traverse between mediums, i.e. from air to water or glass to air. All mediums have what's known as the *index of refraction* $n$, which is understood as the relation between the speed of light $c$ and the speed of light through that medium $v$, calculated as:
 - $n = \dfrac{c}{v}$
 
+
 Importantly, when light traverses through a medium it bends. Consider the angle the incident ray in medium 1 with index of refraction $n_1$ makes with the normal of the surface of medium 2  $\theta_1$ , and the angle the bent ray, or *refracted ray*, makes with the normal of the surface of the medium $\theta_2$. We can relate these two with the following:
 - $n_{1}\sin(\theta_1)=n_{2}\sin(\theta_2)$
+
+Based on the relationship between $n_1$ and $n_2$ we can observe the following two cases when a light ray in a medium of $n_1$ crosses a boundary into a medium of $n_2$:
+1. If $n_1 > n_2,$ the light ray will bend *away* from the normal of the boundary 
+2. If $n_{1} < n_{2},$ the light ray will bend *towards* the normal of the boundary
+
+We now consider the concept of *total internal reflection*, a logical extension of the above concepts. Consider a situation of case 1. As the angle of the incident ray to the normal $\theta_{1}$ increases, the refraction angle $\theta_{2}$ will approach $90 \degree$, until no light is refracted and instead it is entirely reflected into the original medium. We can calculate the value when this occurs, the critical angle of incidence $\theta_{c}$, as:
+- $\theta_{c} = \arcsin\left(\dfrac{n_{2}}{n_{1}}\right)$ 
+
+We also observe a change in the wavelength $\lambda$, calculable as:
+- $\lambda' = \dfrac{\lambda}{n}$ 
+Note that there is no change in frequency $f$ across mediums
+
+We can now consider the creation of virtual images by refraction across mediums. Consider an object in a medium $n_2$ and an observer in medium $n_1$, where the object has some distance from the boundary $d_o$. We create the following relation with the image distance $d_{i}$
+- $n_{1}d_{o} = -n_{2}d_{i}$
+
+## Lenses
+Lenses are one of the most important concepts in optics. We consider lenses of two main shapes:
+1. Converging lenses, or concave lenses, which cause rays to refract towards the optical axis (inwards)
+2. Diverging lenses, or convex lenses, which cause rays to refract away from the optical axis (outwards)
+
+These lenses have a property focal length $f$, defined slightly differently for each. For converging lenses, the focal length $f$ is the distance from the lens where parallel rays appear to converge. For diverging lenses, the focal length $f$ is the distance from the lens at which rays parallel to the optical axis appear to diverge. 
+
+We can calculate the focal length $f$ using another measurement, the radius of curvature $r$, as:
+- $f = \dfrac{r}{2}$
+
+We can now relate the object distance $d_o$ and the image distance $d_i$ through the focal length $f$ of the lens that creates the virtual image with the following equation:
+- $\dfrac{1}{d_{o}} + \dfrac{1}{d_{i}} = \dfrac{1}{f}$
+
+We can also calculate the magnification $m$ of a lens. We define the magnification $m$ to be the ratio of the image height $h_i$ to the object height $h_o$, which is equal to the ratio of the image distance $d_i$ to the object distance $d_{o}$, thus:
+- $m = \dfrac{h_i}{h_{o}} = \dfrac{d_{i}}{d_{o}}$
