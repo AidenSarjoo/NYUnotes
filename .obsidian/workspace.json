@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "89175d614c462ac7",
+        "id": "5d5955ef2bed9451",
         "type": "tabs",
         "children": [
           {
-            "id": "cbbd2dd688961bfb",
+            "id": "6223f48a7921b99b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Waves, Optics, Thermodynamics/Notes.md",
+                "file": "Algorithms/Notes.md",
                 "mode": "source",
                 "source": true
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "007b9be5dd3aa22c",
+        "id": "e4229dd5a0090983",
         "type": "tabs",
         "children": [
           {
-            "id": "c1515d4a12e2de25",
+            "id": "ad8397b20aa6bb81",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf"
+                "file": "ProbStat/Textbooks/Freund.pdf"
               }
             }
           }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ef2c1a9816ac544c",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Waves, Optics, Thermodynamics/Notes.md",
+                "file": "Algorithms/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Waves, Optics, Thermodynamics/Notes.md",
+                "file": "Algorithms/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Waves, Optics, Thermodynamics/Notes.md"
+                "file": "Algorithms/Notes.md"
               }
             }
           },
@@ -172,24 +171,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cbbd2dd688961bfb",
+  "active": "6223f48a7921b99b",
   "lastOpenFiles": [
-    "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
+    "Multivariate Calculus/Notes.md",
+    "ProbStat/Notes.md",
+    "ProbStat/Problems.md",
     "Waves, Optics, Thermodynamics/Notes.md",
+    "ProbStat/Textbooks/Freund.pdf",
+    "ProbStat/Textbooks/Ross.pdf",
+    "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
     "Linear Algebra/Notes.md",
     "Algorithms/Notes.md",
     "Algorithms/Textbooks/CLRS.pdf",
     "Numerical Analysis/Notes.md",
     "Waves, Optics, Thermodynamics/Textbooks",
     "Waves, Optics, Thermodynamics/New folder",
-    "ProbStat/Notes.md",
     "Waves, Optics, Thermodynamics",
     "Numerical Analysis/Textbooks/SuliMayers.pdf",
     "Numerical Analysis/Textbooks/Miller.pdf",
     "Numerical Analysis/Textbooks",
-    "Numerical Analysis",
-    "New folder",
-    "Multivariate Calculus/Notes.md",
     "Numerical/Notes.md",
     "Numerical/Problems.md",
     "PDE/Notes.md",
@@ -198,7 +198,6 @@
     "Calculus/Problems.md",
     "Algo/Notes.md",
     "Algo/Problems.md",
-    "PDE/Problems.md",
-    "ProbStat/Problems.md"
+    "PDE/Problems.md"
   ]
 }

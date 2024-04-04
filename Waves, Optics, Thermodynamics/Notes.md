@@ -18,13 +18,18 @@ Consult the [[Giancoli.pdf|textbook]]  for in-depth explanations, and the phenom
 	- [[Waves, Optics, Thermodynamics/Notes#Intensity|Intensity]]
 	- [[Waves, Optics, Thermodynamics/Notes#Doppler Shift|Doppler Shift]]
 	- [[Waves, Optics, Thermodynamics/Notes#Interference and Beats|Interference and Beats]]
-- [[Waves, Optics, Thermodynamics/Notes#Electromagnetic Waves|Electromagnetic Waves (32.1-32.9)]]
+- [[Waves, Optics, Thermodynamics/Notes#Electromagnetic Waves|Electromagnetic Waves (31.1-31.9)]]
 	- [[Waves, Optics, Thermodynamics/Notes#Electricity and Magnetism|Electricity and Magnetism]]
 	- [[Waves, Optics, Thermodynamics/Notes#Electromagnetic Waves#Introduction|Introduction]]
 	- [[Waves, Optics, Thermodynamics/Notes#Electromagnetic Waves#Energy|Energy]]
 	- [[Waves, Optics, Thermodynamics/Notes#Radiation Pressure|Radiation Pressure]]
 - [[Waves, Optics, Thermodynamics/Notes#Polarization|Polarization (34.7)]]
 	- [[Waves, Optics, Thermodynamics/Notes#Polarization#Introduction|Introduction]]
+- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction|Reflection and Refraction (32.2-32.9)]]
+	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Introduction|Introduction]]
+	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Specular Reflection|Specular Reflection]
+	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Refraction|Refraction]]
+	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#LensesLenses]]
 
 # Simple Harmonic Motion
 >[!Textbook]- 
