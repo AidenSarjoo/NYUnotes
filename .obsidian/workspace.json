@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Notes.md",
+                "file": "ProbStat/Notes.md",
                 "mode": "source",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "c73a8010d028373d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
               }
             }
           }
@@ -101,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Notes.md",
+                "file": "ProbStat/Textbooks/Freund.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Notes.md",
+                "file": "ProbStat/Textbooks/Freund.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Notes.md"
+                "file": "ProbStat/Textbooks/Freund.pdf"
               }
             }
           },
@@ -171,17 +181,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6223f48a7921b99b",
+  "active": "ad8397b20aa6bb81",
   "lastOpenFiles": [
-    "Multivariate Calculus/Notes.md",
     "ProbStat/Notes.md",
-    "ProbStat/Problems.md",
     "Waves, Optics, Thermodynamics/Notes.md",
     "ProbStat/Textbooks/Freund.pdf",
+    "Algorithms/Notes.md",
+    "Multivariate Calculus/Notes.md",
+    "ProbStat/Problems.md",
     "ProbStat/Textbooks/Ross.pdf",
     "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
     "Linear Algebra/Notes.md",
-    "Algorithms/Notes.md",
     "Algorithms/Textbooks/CLRS.pdf",
     "Numerical Analysis/Notes.md",
     "Waves, Optics, Thermodynamics/Textbooks",
