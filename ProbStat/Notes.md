@@ -60,6 +60,17 @@ Occasionally, this function may be hard to differentiate, so we also consider:
 >[!Textbook]- 
 ><u>Chapter 11</u>: ![[Freund.pdf#page=323|Chapter 11]] 
 
+Interval estimation is a common method for estimation where we consider a range of values with some degree of confidence, as opposed to point estimation where we consider a single value. We consider:
+- $P(\hat{\theta_{1}} < \theta < \hat{\theta_{2}}) = 1 - \alpha$
+
+and denote the interval $\hat{\theta_{1}} < \theta < \hat{\theta_{2}}$ as the $100(1-\alpha)\%$ confidence interval. Commonly, the interval takes the form:
+- $(\hat{\theta} - \epsilon, \hat{\theta} + \epsilon)$
+
+For some calculated error value $\epsilon$
+
+## Estimation of Means
+The most common value to estimate is the mean of a population. 
+
 # Hypothesis Testing
 >[!Textbook]- 
 ><u>Chapter 12</u>: ![[Freund.pdf#page=343|Chapter 12]] 
