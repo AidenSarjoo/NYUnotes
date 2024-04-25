@@ -1,6 +1,6 @@
 This is based off the course by Vikram Duvvuri at NYU Tandon, and borrows his explanations, problems, and material. He is the best.
 
-Consult the [[Giancoli.pdf|textbook]]  for in-depth explanations, and the phenomenal problem solutions by [Zhangjin Xu](https://www.youtube.com/channel/UCfMdyd8Q69Px3T0vaLEL6SA) on YouTube
+Consult the [[Giancoli.pdf|textbook]]  for in-depth explanations, and the phenomenal problem solutions by [Zhangjin Xu](https://www.youtube.com/channel/UCfMdyd8Q69Px3T0vaLEL6SA) on YouTube. Note the problem numbers associated with her questions and the questions in the book are different, so you may need to do some digging. 
 # Syllabus:
 - [[Waves, Optics, Thermodynamics/Notes#Simple Harmonic Motion|Simple Harmonic Motion (14.1 - 14.5)]]
 	- [[Waves, Optics, Thermodynamics/Notes#Simple Harmonic Motion#Introduction|Introduction]]
@@ -27,9 +27,15 @@ Consult the [[Giancoli.pdf|textbook]]  for in-depth explanations, and the phenom
 	- [[Waves, Optics, Thermodynamics/Notes#Polarization#Introduction|Introduction]]
 - [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction|Reflection and Refraction (32.2-32.9)]]
 	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Introduction|Introduction]]
-	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Specular Reflection|Specular Reflection]
+	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Specular Reflection|Specular Reflection]]
 	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Refraction|Refraction]]
-	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#LensesLenses]]
+	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Lenses|Lenses]]
+- Optics (33.1-7)
+- Interference (34.1-5)
+- Diffraction (35.1-6)
+- Temperature (17)
+- First Law of Thermodynamics (19)
+- Second Law of Thermodynamics (20.1-8) 
 
 # Simple Harmonic Motion
 >[!Textbook]- 
@@ -366,15 +372,15 @@ where $\theta_i$ is the angle of the $i^{th}$ polarizing filter relative to the 
 ><u>Chapter 32</u>: ![[Giancoli.pdf#page=949|Chapter 32]] 
 
 ### variables:
-| **name**                     | **symbol** | **unit**     |
-|:---------------------------- |:---------- |:------------ |
-| $\text{Angle of Incidence}$  | $\theta_i$ | $\text{rad}$ |
-| $\text{Angle of Reflection}$ | $\theta_r$ | $\text{rad}$ |
-| $\text{Index of Refraction}$ | $n$        |              |
-| $\text{Critical Angle of Incidence}$ | $\theta_c$   | $\text{rad}$             |
-| $\text{focal length}$ | $f$ | $m$ |
-| $\text{radius of curvature}$ | $r$ | $m$ |
-| $\text{magnification}$ | $m$ | |
+| **name**                             | **symbol** | **unit**     |
+|:------------------------------------ |:---------- |:------------ |
+| $\text{Angle of Incidence}$          | $\theta_i$ | $\text{rad}$ |
+| $\text{Angle of Reflection}$         | $\theta_r$ | $\text{rad}$ |
+| $\text{Index of Refraction}$         | $n$        |              |
+| $\text{Critical Angle of Incidence}$ | $\theta_c$ | $\text{rad}$ |
+| $\text{focal length}$                | $f$        | $m$          |
+| $\text{radius of curvature}$         | $r$        | $m$          |
+| $\text{magnification}$               | $m$        |              |
 ### equations:
 - $n = \dfrac{c}{v}$
 - $n_{1}\sin(\theta_1)=n_{2}\sin(\theta_2)$
@@ -431,3 +437,74 @@ We can now relate the object distance $d_o$ and the image distance $d_i$ through
 
 We can also calculate the magnification $m$ of a lens. We define the magnification $m$ to be the ratio of the image height $h_i$ to the object height $h_o$, which is equal to the ratio of the image distance $d_i$ to the object distance $d_{o}$, thus:
 - $m = \dfrac{h_i}{h_{o}} = \dfrac{d_{i}}{d_{o}}$
+
+# Optics
+>[!Textbook]- 
+><u>Chapter 33</u>: ![[Giancoli.pdf#page=982|Chapter 33]] 
+
+### variables:
+| **name**            | **symbol** | **unit**                   |
+|:------------------- |:---------- |:-------------------------- |
+| $\text{Lens Power}$ | $P$        | $D \text{ or } \dfrac{1}{m}$ |
+|                     |            |                            |
+### equations:
+- $P = \dfrac{1}{f}$
+### constants:
+| **name** | **symbol** | **value** | **unit** |
+|:-------- |:---------- |:--------- |:-------- |
+|          |            |           |          | 
+
+## Thin Lenses
+Optics is very similar to the previous topics. We retain the relationship between obj. distance $d_o$, image distance $d_i$, and focal length $f$:
+- $\dfrac{1}{d_{o}} + \dfrac{1}{d_{i}} = \dfrac{1}{f}$
+
+Though, we now apply a few rules on signs:
+1. The focal length $f$ is positive for converging lenses and negative for diverging lenses
+2. The object distance $d_{o}$ is positive if the light and the object are on the same side of the lens and negative otherwise
+3. The image distance $d_{i}$ is positive if the light and the object are on opposite sides of the lens and negative otherwise
+4. The height $h$ of the image is positive if the image is upright and negative otherwise
+
+Or, rewritten:
+
+$\text{sign}(f) = 
+   \left\{
+\begin{array}{ll}
+      + & \text{the lens is converging} \\
+      - & \text{the lens is diverging} \\
+\end{array} 
+\right. 
+$
+
+$\text{sign}(d_o) = 
+   \left\{
+\begin{array}{ll}
+      + & \text{the object and light are on the same side} \\
+      - & \text{the object and light are on opposite sides} \\
+\end{array} 
+\right. 
+$
+
+$\text{sign}(d_i) = 
+   \left\{
+\begin{array}{ll}
+      + & \text{the image and light are on opposite sides} \\
+      - & \text{the object and light are on the same side} \\
+\end{array} 
+\right. 
+$
+
+$\text{sign}(h) = 
+   \left\{
+\begin{array}{ll}
+      + & \text{the image is upright} \\
+      - & \text{the image is upside down} \\
+\end{array} 
+\right. 
+$
+
+We also retain the magnification formula:
+- $m = \dfrac{h_{i}}{h_{o}}=\dfrac{-d_{i}}{d_{o}}$
+
+It's worth considering what happens for lenses in series. Consider lenses $1$ and $2$. The image produced by lens $1$ then becomes the object of lens $2$
+
+
