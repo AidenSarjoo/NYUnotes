@@ -6,7 +6,7 @@
       {
         "id": "5d5955ef2bed9451",
         "type": "tabs",
-        "dimension": 48.72813990461049,
+        "dimension": 42.46389891696751,
         "children": [
           {
             "id": "6223f48a7921b99b",
@@ -16,7 +16,7 @@
               "state": {
                 "file": "Waves, Optics, Thermodynamics/Notes.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -25,7 +25,7 @@
       {
         "id": "a45cb7675ccdcce2",
         "type": "tabs",
-        "dimension": 51.27186009538951,
+        "dimension": 57.536101083032484,
         "children": [
           {
             "id": "4ccb488ad3c4b695",
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ef2c1a9816ac544c",
@@ -191,6 +189,8 @@
   "lastOpenFiles": [
     "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
     "Waves, Optics, Thermodynamics/Notes.md",
+    "Attachments/WOT6i1.png",
+    "Attachments",
     "ProbStat/Notes.md",
     "ProbStat/Textbooks/Freund.pdf",
     "Algorithms/Notes.md",
@@ -205,7 +205,6 @@
     "Waves, Optics, Thermodynamics",
     "Numerical Analysis/Textbooks/SuliMayers.pdf",
     "Numerical Analysis/Textbooks/Miller.pdf",
-    "Numerical Analysis/Textbooks",
     "Numerical/Notes.md",
     "Numerical/Problems.md",
     "PDE/Notes.md",

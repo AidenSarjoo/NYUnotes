@@ -137,7 +137,7 @@ And its leftward counterpart:
 We may also see a *phase constant* version:
 - $D(x,t) = A\sin(kx-\omega t + \phi_0)$ 
 
-**The principle of superposition**: The collision two waves $D_1$ and $D_2$ results in a net displacement $D=D_{1}+D_{2}$ 
+**The principle of superposition**: The collision of two waves $D_1$ and $D_2$ results in a net displacement $D=D_{1}+D_{2}$ 
 
 When a wave encounters a boundary, like a wall holding the end of a cord in-place, the wave will be reflected, resulting in an inversion of that wave with an equal amplitude. When a wave encounters a change in material, like a cord transitioning to another cord of a different thickness, part of it will be reflected and part of it will be transmitted to the new material. Critically, the frequency does NOT change across mediums, but the velocity $v$ and wavelength $\lambda$ will.
 
@@ -367,9 +367,9 @@ Something that occurs commonly is chaining polarizers, such that light passes th
 
 where $\theta_i$ is the angle of the $i^{th}$ polarizing filter relative to the light
 
-# Reflection and Refraction
+# Reflection Refraction, and Optics
 >[!Textbook]- 
-><u>Chapter 32</u>: ![[Giancoli.pdf#page=949|Chapter 32]] 
+><u>Chapter 32-33</u>: ![[Giancoli.pdf#page=949|Chapter 32]] 
 
 ### variables:
 | **name**                             | **symbol** | **unit**     |
@@ -381,6 +381,7 @@ where $\theta_i$ is the angle of the $i^{th}$ polarizing filter relative to the 
 | $\text{focal length}$                | $f$        | $m$          |
 | $\text{radius of curvature}$         | $r$        | $m$          |
 | $\text{magnification}$               | $m$        |              |
+| $\text{Lens Power}$ | $P$        | $D \text{ or } \dfrac{1}{m}$ |
 ### equations:
 - $n = \dfrac{c}{v}$
 - $n_{1}\sin(\theta_1)=n_{2}\sin(\theta_2)$
@@ -389,6 +390,7 @@ where $\theta_i$ is the angle of the $i^{th}$ polarizing filter relative to the 
 - $f = \dfrac{r}{2}$
 -  $\dfrac{1}{d_{o}} + \dfrac{1}{d_{i}} = \dfrac{1}{f}$
 -  $m = \dfrac{h_i}{h_{o}} = \dfrac{d_{i}}{d_{o}}$
+- $\dfrac{1}{f} = (n-1)\left(\dfrac{1}{R_{1}} + \dfrac{1}{R_{2}}\right)$ 
 
 ## Introduction
 This chapter primarily deals with the  light rays, straight-line paths of light, as they bounce and scatter across surfaces. 
@@ -437,22 +439,6 @@ We can now relate the object distance $d_o$ and the image distance $d_i$ through
 
 We can also calculate the magnification $m$ of a lens. We define the magnification $m$ to be the ratio of the image height $h_i$ to the object height $h_o$, which is equal to the ratio of the image distance $d_i$ to the object distance $d_{o}$, thus:
 - $m = \dfrac{h_i}{h_{o}} = \dfrac{d_{i}}{d_{o}}$
-
-# Optics
->[!Textbook]- 
-><u>Chapter 33</u>: ![[Giancoli.pdf#page=982|Chapter 33]] 
-
-### variables:
-| **name**            | **symbol** | **unit**                   |
-|:------------------- |:---------- |:-------------------------- |
-| $\text{Lens Power}$ | $P$        | $D \text{ or } \dfrac{1}{m}$ |
-|                     |            |                            |
-### equations:
-- $P = \dfrac{1}{f}$
-### constants:
-| **name** | **symbol** | **value** | **unit** |
-|:-------- |:---------- |:--------- |:-------- |
-|          |            |           |          | 
 
 ## Thin Lenses
 Optics is very similar to the previous topics. We retain the relationship between obj. distance $d_o$, image distance $d_i$, and focal length $f$:
@@ -505,6 +491,37 @@ $
 We also retain the magnification formula:
 - $m = \dfrac{h_{i}}{h_{o}}=\dfrac{-d_{i}}{d_{o}}$
 
-It's worth considering what happens for lenses in series. Consider lenses $1$ and $2$. The image produced by lens $1$ then becomes the object of lens $2$
+It's worth considering what happens for lenses in series. Consider lenses $1$ and $2$. The image produced by lens $1$ then becomes the object of lens $2$. 
+
+The Lensmaker's equation relates the focal length of a lens $f$, the radii of curvature of the lenses' surfaces $R_{1}, R_{2}$, and its index of refraction $n$:
+- $\dfrac{1}{f} = (n-1)\left(\dfrac{1}{R_{1}} + \dfrac{1}{R_{2}}\right)$ 
+
+# Interference
+>[!Textbook]- 
+><u>Chapter 34</u>: ![[Giancoli.pdf#page=1018|Chapter 34]] 
+
+### variables:
+| **name** | **symbol** | **unit** |
+|:-------- |:---------- |:-------- |
+|          |            |          | 
+
+### equations:
+- 
+### constants:
+| **name** | **symbol** | **value** | **unit** |
+|:-------- |:---------- |:--------- |:-------- |
+|          |            |           |          | 
+
+## Double-Slit Interference
+This section primarily concerns the wave model of light, and the effects when light interferes with itself. Recall  **The principle of superposition**: The collision of two waves $D_1$ and $D_2$ results in a net displacement $D=D_{1}+D_{2}$. Recall also constructive vs destructive interference:
+- Constructive: $D_{1} = D_{2}, D = 2D_{1}$, which occurs when the waves are in-phase 
+- Destructive: $D_{1} = -D_{2}, D = 0$ 
+
+These identities will be helpful in understanding the Double-Slit Experiment, in which rays of light are shone through two slits, and the resulting interference between the now different waves creates an interesting pattern on the screen, as seen below:
+
+> [!Image]+ 
+> ![[WOT6i1.png]]
+
+
 
 
