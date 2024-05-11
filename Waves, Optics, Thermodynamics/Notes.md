@@ -30,9 +30,7 @@ Consult the [[Giancoli.pdf|textbook]]  for in-depth explanations, and the phenom
 	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Specular Reflection|Specular Reflection]]
 	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Refraction|Refraction]]
 	- [[Waves, Optics, Thermodynamics/Notes#Reflection and Refraction#Lenses|Lenses]]
-- Optics (33.1-7)
-- Interference (34.1-5)
-- Diffraction (35.1-6)
+- Interference (34.1-5), Diffraction (35.1-6)
 - Temperature (17)
 - First Law of Thermodynamics (19)
 - Second Law of Thermodynamics (20.1-8) 
@@ -452,41 +450,13 @@ Though, we now apply a few rules on signs:
 
 Or, rewritten:
 
-$\text{sign}(f) = 
-   \left\{
-\begin{array}{ll}
-      + & \text{the lens is converging} \\
-      - & \text{the lens is diverging} \\
-\end{array} 
-\right. 
-$
+$\text{sign}(f) = \left\{\begin{array}{ll}+ & \text{the lens is converging} \\ - & \text{the lens is diverging} \\ \end{array}  \right.$
 
-$\text{sign}(d_o) = 
-   \left\{
-\begin{array}{ll}
-      + & \text{the object and light are on the same side} \\
-      - & \text{the object and light are on opposite sides} \\
-\end{array} 
-\right. 
-$
+$\text{sign}(d_o) = \left\{ \begin{array}{ll} + & \text{the object and light are on the same side} \\ - & \text{the object and light are on opposite sides} \\ \end{array}  \right.$
 
-$\text{sign}(d_i) = 
-   \left\{
-\begin{array}{ll}
-      + & \text{the image and light are on opposite sides} \\
-      - & \text{the object and light are on the same side} \\
-\end{array} 
-\right. 
-$
+$\text{sign}(d_i) = \left\{\begin{array}{ll}+ & \text{the image and light are on opposite sides} \\- & \text{the object and light are on the same side} \\\end{array} \right.$
 
-$\text{sign}(h) = 
-   \left\{
-\begin{array}{ll}
-      + & \text{the image is upright} \\
-      - & \text{the image is upside down} \\
-\end{array} 
-\right. 
-$
+$\text{sign}(h) = \left\{\begin{array}{ll}+ & \text{the image is upright} \\ - & \text{the image is upside down} \\ \end{array} \right.$
 
 We also retain the magnification formula:
 - $m = \dfrac{h_{i}}{h_{o}}=\dfrac{-d_{i}}{d_{o}}$
@@ -496,7 +466,7 @@ It's worth considering what happens for lenses in series. Consider lenses $1$ an
 The Lensmaker's equation relates the focal length of a lens $f$, the radii of curvature of the lenses' surfaces $R_{1}, R_{2}$, and its index of refraction $n$:
 - $\dfrac{1}{f} = (n-1)\left(\dfrac{1}{R_{1}} + \dfrac{1}{R_{2}}\right)$ 
 
-# Interference
+# Interference and Diffraction
 >[!Textbook]- 
 ><u>Chapter 34</u>: ![[Giancoli.pdf#page=1018|Chapter 34]] 
 
@@ -506,7 +476,13 @@ The Lensmaker's equation relates the focal length of a lens $f$, the radii of cu
 |          |            |          | 
 
 ### equations:
-- 
+- $\sin(\theta_{m}) = m \dfrac{\lambda}{d} \approx \theta_{m}$
+- $\theta_{m} = \left(m + \frac{1}{2}\right) \dfrac{\lambda}{d}$
+- $y_{m} = \dfrac{m \lambda L}{d}$
+- $\Delta y = \dfrac{\lambda L}{d}$
+- $I = 4I_{0}\cos^{2}\left(\dfrac{\pi d}{\lambda L} y \right)$
+- $2t = m \lambda_{n}$
+- $2t = \left(m + \frac{1}{2}\right)\lambda_{n}$
 ### constants:
 | **name** | **symbol** | **value** | **unit** |
 |:-------- |:---------- |:--------- |:-------- |
@@ -517,11 +493,62 @@ This section primarily concerns the wave model of light, and the effects when li
 - Constructive: $D_{1} = D_{2}, D = 2D_{1}$, which occurs when the waves are in-phase 
 - Destructive: $D_{1} = -D_{2}, D = 0$ 
 
-These identities will be helpful in understanding the Double-Slit Experiment, in which rays of light are shone through two slits, and the resulting interference between the now different waves creates an interesting pattern on the screen, as seen below:
+These identities will be helpful in understanding the Double-Slit Experiment, in which rays of light are shone through two slits a distance $d$ apart, and the resulting interference between the now different waves creates an interesting pattern on a screen a horizontal distance $L$ away, as seen below:
 
 > [!Image]+ 
 > ![[WOT6i1.png]]
 
+These rays then cast bright and dark spots, called *fringes*, on the opposing wall. The $m$th bright spot occurs at angles $\theta_m$ from the center of the two slits to the opposing wall such that:
+- $\sin(\theta_{m}) = m \dfrac{\lambda}{d}$
 
+Though we often use the small angle approximation ($\sin(\theta) \approx \theta$ for small $\theta$), and derive
+- $\theta_{m} = m \dfrac{\lambda}{d}$
 
+The vertical distance of the $m$th fringe from the center of the two slits $y_m$ is given by:
+- $y_{m} = \dfrac{m \lambda L}{d}$
 
+From this we can derive the distance between slits $\Delta y$ as:
+- $\Delta y = \dfrac{\lambda L}{d}$
+
+Note we can also derive equations for dark fringes, in the form of:
+- $\theta_{m} = \left(m + \frac{1}{2}\right) \dfrac{\lambda}{d}$
+
+We also consider the intensity $I$ at each distance $y$ on the opposing wall, calculated as:
+- $I = 4I_{0}\cos^{2}\left(\dfrac{\pi d}{\lambda L} y \right)$
+
+Note that $I$ and $y$ are inversely related
+
+## Diffraction Grating
+Similar to the double-slit problem, we now approach a diffraction grate, where there are now a large number of equally spaced slits. For computational purposes, we assume there to be an infinite number of slits. We make small modifications to the double-slit equations, namely the inclusion of the slit distance $d$, in the form of:
+- $d \sin(\theta_m) = m\lambda$
+- $y_{m} = L \tan(\theta_{m})$
+
+These equations are for the bright fringes. The dark fringe equations follow naturally.
+
+Additionally, we see a change in the intensity, now given by:
+- $I_{\text{max}} = N^{2}I$
+
+## Single Slit Diffraction 
+We also consider the diffraction of light through a single slit, which behaves similarly to the equations we've discussed above, but with notable differences. We rely on the following equation:
+- $\sin(\theta_{p}) \approx \theta_{p} = p \frac{\lambda}{a}$
+
+Where $a$ is the slit length and p refers to the dark fringes on the opposing wall.
+
+The single slit pattern is notable distinct because we observe maximal intensity directly across from the slit, and then a steep drop-off at the other bright fringes. The width $w$ of the bright fringes are given by:
+- $w = \dfrac{2\lambda L}{a}$
+
+## Circular Aperture Diffraction
+Instead of passing light through a rectangular slit, we now consider a circular slit with diameter $D$. Interestingly, the angle of the first minimum of intensity is given by:
+- $\theta \approx \frac{1.22\lambda}{D}$
+
+And the width of the central maximum is given by:
+- $w \approx \frac{2.44\lambda L}{D}$
+
+## Interference in Thin Films
+Thin-film interference defines the behavior of light as it passes through films whose thickness is relative to the wavelength $\lambda$ of the light. Recall that a wave is partially reflected when traversing between mediums. The reflection that occurs when the wave passes out of the lens can destructively interfere with the reflection that occurs when the wave enters the lens, creating unusual optical effects. This occurs when the distance the wave travels from the entry of the lens to the exit of the lens ($A \text{ to } B$) added with the distance the reflection travels from the exit back to some point on the entry ($B \text{ to } C$) is $\frac{m}{2}\lambda_{n}$ for some $m \in \mathbb{N}$, and where $n$ is the refractive index of the medium. 
+Recall we can calculate $\lambda_{n}$ as :
+- $\lambda_{n} = \dfrac{\lambda}{n}$
+
+We consider the following cases, where $t$ is the thickness of the second medium the wave traverses through:
+- If $2t = m \lambda_{n}$, then the interference is destructive
+- If $2t = \left(m + \frac{1}{2}\right)\lambda_{n}$, then the interference is constructive 
