@@ -552,3 +552,148 @@ Recall we can calculate $\lambda_{n}$ as :
 We consider the following cases, where $t$ is the thickness of the second medium the wave traverses through:
 - If $2t = m \lambda_{n}$, then the interference is destructive
 - If $2t = \left(m + \frac{1}{2}\right)\lambda_{n}$, then the interference is constructive 
+
+# Temperature and Kinetic Theory
+### variables:
+| **name** | **symbol** | **unit** |
+|:-------- |:---------- |:-------- |
+|          |            |          | 
+
+### equations:
+- 
+### constants:
+| **name** | **symbol** | **value** | **unit** |
+|:-------- |:---------- |:--------- |:-------- |
+|          |            |           |          | 
+
+
+## Introduction
+We consider the measurement of temperature in three systems: Fahrenheit ($[T_{F}] = ^{\circ}F$), Celsius ($[T_{C}] = ^{\circ}C$), and Kelvin ($[T_{K}] = K$), with the following relations:
+- $T_{C} = \frac{5}{9}(T_{F} - 32)$
+- $T_{K} = T_{C} - 273$
+
+## The Ideal Gas Law
+Note that this section assumes a knowledge of gases standard in introductory Chemistry course, and skips large amounts of explanations and derivations. 
+
+The Gas Laws relate the Pressure $P$, Volume $V$, Temperature $T$, and molecules $N \text{ or } [n] = mol$ of a gas in some area. In a system where the number of molecules stays consistent, we retain the following relation:
+- $\dfrac{P_{1}V_{1}}{T_{1}} = \dfrac{P_{2}V_{2}}{T_{2}}$
+
+We extend this relation further, deriving *The Ideal Gas Law*, an equation which governs almost all behaviors of heat and thermodynamics applicable at this level:
+- $PV = nRT = Nk_{B}T$ 
+
+## Thermal Expansion
+When molecules experience a change in temperature $T$, as noted by the gas laws, the container may also experience a change in their length $L$ or volume $V$. Increasing the temperature excites the particles, causing them to push further out and we see an increase in their dimensionality. We derive use the following equations:
+- $\Delta L = \alpha L_0 \Delta T$
+- $\Delta V = \beta V_{0} \Delta T$
+
+where $\alpha, \beta$ are known as the coefficients of linear and volume expansion, respectively.
+
+## Kinetic Theory
+As discussed, temperature and heat cause changes in the behavior of molecules. For the molecules of a gas, their velocity increases, which exerts an increased pressure on their container. We derive the following relation:
+- $P = \frac{1}{3} \dfrac{N}{V} m v_{rms}^{2}$
+
+which subsequently derives a formula for $v_{rms}$:
+- $v_{rms} = \sqrt{\dfrac{3k_{B}T}{m}}$
+
+and even further, an energy relation, though this differs for diatomic and monatomic gases:
+- $E = \frac{3}{2}nRT$, for monatomic gases
+- $E = \frac{5}{2}nRT$, for diatomic gases
+
+# First Law of Thermodynamics
+### variables:
+| **name** | **symbol** | **unit** |
+|:-------- |:---------- |:-------- |
+|          |            |          | 
+
+### equations:
+- 
+### constants:
+| **name** | **symbol** | **value** | **unit** |
+|:-------- |:---------- |:--------- |:-------- |
+|          |            |           |          | 
+
+## Introduction
+This section begins a formal introduction of heat $Q$, separate but related to temperature $T$. We can calculate the internal heat of a system $Q$, based on its mass $m$, the change in temperature $\Delta T$, and the object of the system's *specific heat* $c$ as follows:
+- $Q = mc \Delta T$
+
+Though we may also use the systems' *molar specific heat C* $C$, defined as the amount of energy required to raise the temperature of $1 \text{ mol}$ of the substance by $1 K$:
+- $Q = nC \Delta T$
+
+A common problem involves two substances of differing material (thus differing specific heat $c$) and differing temperature $T$. To solve, we make use of the above equations and understand physically that total heat of the system must be 0 $Q_{1}+Q_{2} = 0$, and that both objects will have the same final temp $T_{f1} = T_{f2} = T_f$, thus:
+- $m_{1}c_{1}(T_{f} - T_{1}) + m_{2}c_{2}(T_{f}-T_{2}) = 0$
+
+which derives:
+- $T_{f}=\dfrac{m_{1}c_{1}T_{1}+m_{2}c_{2}T_{2}}{m_1c_2+m_{2}c_{2}}$
+
+## Phase Changes
+Changes in heat at critical points of temperature cause changes in the object's phase, i.e. solid to liquid or liquid to gas. Note that while an object is undergoing a phase change, its temperature does not change. The amount of heat $Q$ required to complete a phase change is determined by the object's mass $m$ and the *Latent Heat* $L$ for that object and that specific phase change, calculated as:
+- $Q = mL$
+
+## Methods of Heat Transfer
+Objects of differing heat in thermal contact will attempt to transfer heat to each other, which can happen through various methods but we focus primarily on Conduction and Radiation, each of which have their own governing equations. 
+
+Conduction involves molecular collisions, and its governing equation is given as:
+- $\dfrac{Q}{t} = k A \dfrac{T_{1}-T_{2}}{l}$
+
+where $A$ is the area of contact between the two, and $l$ is the length of the contact between them. $k$ is a proportionality constant known as thermal conductivity. Its infinitesimal form is given as:
+- $\dfrac{dQ}{dt} = -kA \dfrac{dT}{dx}$
+
+Radiation is the transfer of heat without a medium. Its governing equation is known as the Stefan-Boltzmann equation:
+- $\frac{Q}{t} = \epsilon \sigma A T^4$
+
+Where $\sigma$ is the Stefan-Boltzmann constant, and $\epsilon \in (0,1)$ is the emissivity of the surface of the radiating material. We assume that the emissivity is 1 $\epsilon \approx 1$ for ideal blackbody materials. 
+
+## Thermodynamic Processes
+The study of thermodynamic processes is motivated by relation between the pressure $P$ and volume $V$ of a gas, and the work done on that gas $W$:
+- $W = \int P dV$
+
+and the critical *First Law of Thermodynamics*:
+- $Q = \Delta E + W$
+
+We study the four following thermodynamic processes:
+- Isovolumetric: Volume is constant
+- Isobaric: Pressure is constant
+- Isothermal: Temperature is constant
+- Adiabatic: Heat does not enter or leave the system
+
+Briefly, recall the molar specific heat $C$. We observe that the heat capacity per mole changes based on whether or not a gas is monatomic or diatomic. Refer to the following chart:
+
+| C         | Isovolumetric ($C_V$)   | Isobaric ($C_P$)        |
+|:--------- |:----------------------- |:----------------------- |
+| monatomic | $C_{V} = \frac{3}{2}nR$ | $C_{P} = \frac{5}{2}nR$ |
+| diatomic  | $C_{V} = \frac{5}{2}nR$ | $C_{P} = \frac{7}{2}nR$ | 
+
+For isovolumetric processes, where volume $V$ is constant, we can clearly see that work $W$ must be equal to 0:
+- $\Delta V = 0, W = 0$
+
+For isobaric processes, where pressure $P$ is constant, we can reduce the work equation to:
+- $W = P \Delta V$
+
+For isothermal processes, where temperature $T$ is constant, we can derive a nice property from the ideal gas law:
+- $W = nRT \ln\left(\dfrac{V_{2}}{V_{1}}\right)$
+
+We also derive that the internal Energy $E$ is consistent, and thus:
+- $\Delta E = 0$
+
+For adiabatic processes, we can observe that the heat $Q$ is 0:
+- $Q = 0$
+
+Adiabatic processes also observe additional properties, for example:
+- $P_{1}V_{1}^{\gamma} = P_{2}V_{2}^{\gamma}$
+
+where:
+- $\gamma = \dfrac{C_{P}}{C_{V}}$
+
+and the very useful:
+- $\Delta E = \dfrac{C_{V}}{nR}(P_{2}V_{2} - P_{1}V_{1})$ 
+
+With all of the combined information, we can make use of the following chart:
+
+|               | $Q$ $=$                                     | $\Delta E$ $+$     | W                                           |
+|:------------- |:------------------------------------------- |:------------------ |:------------------------------------------- |
+| Isovolumetric | $nC_{V} \Delta T$                           | $n C_{V} \Delta T$ | $0$                                         |
+| Isobaric      | $nC_{P} \Delta T$                           | $n C_{V} \Delta T$ | $P \Delta V$                                |
+| Isothermal    | $n RT \ln\left(\dfrac{V_{2}}{V_{1}}\right)$ | 0                  | $n RT \ln\left(\dfrac{V_{2}}{V_{1}}\right)$ |
+| Adiabatic     | 0                                           | $nC_{V} \Delta T$  | $-n C_{V} \Delta T$                                            |
+
+$e = $

@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Waves, Optics, Thermodynamics/Notes.md",
+                "file": "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Waves, Optics, Thermodynamics/Notes.md",
+                "file": "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Waves, Optics, Thermodynamics/Notes.md"
+                "file": "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf"
               }
             }
           },
@@ -186,10 +186,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e7dba1a77be3b4a0",
+  "active": "ad8397b20aa6bb81",
   "lastOpenFiles": [
-    "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
     "Waves, Optics, Thermodynamics/Notes.md",
+    "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
     "ProbStat/Notes.md",
     "ProbStat/Textbooks/Freund.pdf",
     "Attachments/WOT6i1.png",
