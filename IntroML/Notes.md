@@ -9,7 +9,7 @@ We use Machine Learning to solve problems of the form:
 - **Input**: A piece of data
 - **Output**: A decision (what something is) or prediction (what something will be).
 
-## OCR
+## Example: OCR
 A common example problem is *OCR*, Optical Character Recognition, where given handwritten characters we attempt to identify the character, i.e. a series of handwritten numbers could be turned into their int representation.
 
 The machine learning approach to this problem is as follows:
@@ -43,7 +43,11 @@ Recall the calculation of $w(y|x)$ where we use the marginal density of $X$: $g(
 - $g(x) = \int_{-\infty}^{\infty}f(x,y)dy$
 - $w(y|x) = \dfrac{f(x,y)}{g(x)}$
 
-In the multivariate case, we may consider 
+A linear regression is a regression equation of the form:
+- $\mu_{Y|x}=\alpha+\beta x$
+
+with regression coefficients $\alpha$ and $\beta$
+
 ## Simple Linear Regression
 See the associated [[IntroML/Code/demo_auto_mpg.ipynb|demo]] for an introduction to pandas as well as demonstrations of the following material. 
 
