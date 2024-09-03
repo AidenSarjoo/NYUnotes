@@ -6,7 +6,6 @@
       {
         "id": "e4229dd5a0090983",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "488508664ac0a903",
@@ -14,36 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Real Analysis/Notes.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "2e1fe978d97c4fa8",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "fbf9660e27921b7a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Real Analysis/Textbooks/Stoll.pdf"
-              }
-            }
-          },
-          {
-            "id": "989b7c15ca198c8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Real Analysis/Notes.md",
+                "file": "IntroML/Musco Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ef2c1a9816ac544c",
@@ -116,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Real Analysis/Textbooks/Stoll.pdf",
+                "file": "IntroML/Musco Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Real Analysis/Textbooks/Stoll.pdf",
+                "file": "IntroML/Musco Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Real Analysis/Textbooks/Stoll.pdf"
+                "file": "IntroML/Musco Notes.md"
               }
             }
           },
@@ -186,10 +155,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fbf9660e27921b7a",
+  "active": "488508664ac0a903",
   "lastOpenFiles": [
-    "Real Analysis/Notes.md",
+    "IntroML/Resources/MIT6390Notes.pdf",
     "Real Analysis/Textbooks/Stoll.pdf",
+    "IntroML/Sellie Notes.md",
+    "ProbStat/Notes.md",
+    "ProbStat/Textbooks/Freund.pdf",
+    "IntroML/Musco Notes.md",
+    "Real Analysis/Notes.md",
+    "IntroML/Resources/NgMaNotes2023.pdf",
+    "IntroML/Resources",
+    "Untitled.md",
     "Waves, Optics, Thermodynamics/Notes.md",
     "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
     "Algorithms/Notes.md",
@@ -197,18 +174,11 @@
     "Linear Algebra/Notes.md",
     "Numerical Analysis/Notes.md",
     "PDE/Notes.md",
-    "IntroML/Notes.md",
     "Real Analysis/Textbooks",
     "Databases",
     "Computer Networking",
-    "Untitled.md",
     "Real Analysis",
-    "ProbStat/Textbooks/Freund.pdf",
-    "ProbStat/Textbooks/Ross.pdf",
     "IntroML/Code.md",
-    "IntroML/Code/demo_auto_mpg.ipynb",
-    "IntroML/Code/demo_intro_vectors.ipynb",
-    "ProbStat/Notes.md",
     "Attachments/WOT6i1.png",
     "ProbStat/Problems.md",
     "Numerical/Notes.md",
