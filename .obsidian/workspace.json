@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IntroML/Musco Notes.md",
+                "file": "ProbStat/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IntroML/Musco Notes.md",
+                "file": "ProbStat/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IntroML/Musco Notes.md",
+                "file": "ProbStat/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IntroML/Musco Notes.md"
+                "file": "ProbStat/Notes.md"
               }
             }
           },
@@ -157,33 +157,34 @@
   },
   "active": "488508664ac0a903",
   "lastOpenFiles": [
+    "IntroML/Musco Notes.md",
+    "Waves, Optics, Thermodynamics/Notes.md",
+    "Computer Networks/Notes.md",
+    "Network Security/Textbooks/Comer.pdf",
+    "ODE/Notes.md",
+    "Network Security/Textbooks",
+    "Network Security",
+    "Computer Networks/Textbooks/KuroseRoss.pdf",
+    "Computer Networks/Textbooks",
+    "Computer Networks",
+    "Multivariate Calculus/Notes.md",
     "IntroML/Resources/MIT6390Notes.pdf",
     "Real Analysis/Textbooks/Stoll.pdf",
     "IntroML/Sellie Notes.md",
     "ProbStat/Notes.md",
     "ProbStat/Textbooks/Freund.pdf",
-    "IntroML/Musco Notes.md",
     "Real Analysis/Notes.md",
     "IntroML/Resources/NgMaNotes2023.pdf",
-    "IntroML/Resources",
     "Untitled.md",
-    "Waves, Optics, Thermodynamics/Notes.md",
-    "Waves, Optics, Thermodynamics/Textbooks/Giancoli.pdf",
     "Algorithms/Notes.md",
-    "Multivariate Calculus/Notes.md",
     "Linear Algebra/Notes.md",
     "Numerical Analysis/Notes.md",
     "PDE/Notes.md",
-    "Real Analysis/Textbooks",
-    "Databases",
-    "Computer Networking",
-    "Real Analysis",
     "IntroML/Code.md",
     "Attachments/WOT6i1.png",
     "ProbStat/Problems.md",
     "Numerical/Notes.md",
     "Numerical/Problems.md",
-    "ODE/Notes.md",
     "Calculus/Notes.md",
     "Calculus/Problems.md",
     "Algo/Notes.md",
